@@ -4,12 +4,9 @@ A **1-to-4 De-multiplexer** is a combinational logic circuit designed to route a
 
 ---
 
-## 1. Logic Diagram
 
 
----
-
-## 2. Functional Overview
+## 1. Functional Overview
 The circuit consists of one data input, two control (select) lines, and four output lines.
 
 | Component | Signal | Description |
@@ -20,7 +17,7 @@ The circuit consists of one data input, two control (select) lines, and four out
 
 ---
 
-## 3. Truth Table
+## 2. Truth Table
 The select lines ($S_1, S_0$) determine which output is active. All other outputs remain at logic `0`.
 
 | $S_1$ | $S_0$ | Active Output | Output States |
@@ -32,7 +29,7 @@ The select lines ($S_1, S_0$) determine which output is active. All other output
 
 ---
 
-## 4. Logical Expressions
+## 3. Logical Expressions
 The Boolean equations for each output line are derived as follows:
 
 *   **$Y_0 = \bar{S_1} \cdot \bar{S_0} \cdot I$**[cite: 1, 2]
@@ -42,7 +39,7 @@ The Boolean equations for each output line are derived as follows:
 
 ---
 
-## 5. Applications
+## 4. Applications
 *   **Communication Systems:** Directing data streams to multiple receivers[cite: 1, 2].
 *   **Memory Management:** Routing data to specific memory banks or CPU registers[cite: 1, 2].
 *   **Serial-to-Parallel Conversion:** Converting bit-streams into parallel data formats[cite: 1, 2].
